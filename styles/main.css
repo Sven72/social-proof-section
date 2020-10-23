@@ -101,6 +101,10 @@ body {
   body {
     overflow-y: hidden;
   }
+
+  .flex-wrapper {
+    border: 2px dashed pink;
+  }
   .main-wrapper {
     width: max(80vw, 1570px);
     background: url(../images/bg-pattern-top-desktop.svg);
@@ -121,6 +125,7 @@ body {
   .flex-wrapper {
     display: flex;
     height: 25vh;
+    width: auto;
   }
 
   .headline {
@@ -140,7 +145,6 @@ body {
     text-align: left;
     margin: 1em 0 0;
     line-height: 1.5em;
-    /* width: min(50%, 40ch); */
   }
   .rated--stars {
     max-width: 120px;
@@ -195,6 +199,9 @@ body {
     justify-content: stretch;
   }
 
+  .testimonial--header {
+    margin-bottom: 1em;
+  }
   .testimonial--image {
     width: max(20%, 40px);
   }
@@ -203,6 +210,7 @@ body {
     font-size: min(0.9em, 10px);
     font-size: clamp(11px, 1vw, 0.9em);
   }
+
   .testimonial--one {
     grid-column: 1/2;
     grid-row: 1/18;
