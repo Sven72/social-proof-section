@@ -215,9 +215,7 @@ body {
     margin-bottom: 1em;
   }
 
-  .testimonial--image {
-    width: max(20%, 40px);
-  }
+
 
   .testimonial--module {
     max-width: 350px;
