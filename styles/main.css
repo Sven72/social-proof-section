@@ -168,7 +168,6 @@ body {
 
   .rated--stars {
     width: 100%;
-    /* Why does this em have an effect – but not as huge as it should? */
     font-size: 0.2em;
     font-style: bold;
   }
