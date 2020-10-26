@@ -60,12 +60,12 @@ body {
   background-color: var(--bg-testimonial);
   border-radius: 5px;
   margin: 1.5em;
-  padding: 1em;
 }
 
 .testimonial--header {
   display: flex;
   padding: 2em 1em;
+  margin-bottom: 1em;
 }
 
 .testimonial--image {
@@ -221,9 +221,10 @@ body {
 
   .testimonial--module {
     max-width: 350px;
-    font-size: clamp(11px, 1vw, 0.9em);
+    font-size: clamp(12px, 1.5vw, 1em);
     /*  I had some issues with the grid elements because of the margin inherited from the mobile version. */
     margin: unset;
+    padding-bottom: 0.3em;
   }
 
   .testimonial--one {
